@@ -1,3 +1,9 @@
+# prompts-plus
+
+Fork from [prompts](https://github.com/terkelg/prompts)
+
+---
+
 <p align="center">
   <img src="https://github.com/terkelg/prompts/raw/master/prompts.png" alt="Prompts" width="500" />
 </p>
