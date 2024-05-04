@@ -66,6 +66,7 @@ declare namespace prompts {
 		disabled?: boolean | undefined;
 		selected?: boolean | undefined;
 		description?: string | undefined;
+    heading?: boolean | undefined;
 	}
 
 	interface Options {
