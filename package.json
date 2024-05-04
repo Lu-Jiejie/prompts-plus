@@ -14,6 +14,7 @@
     "lib",
     "index.js"
   ],
+  "types": "index.d.ts",
   "scripts": {
     "start": "node lib/index.js",
     "test": "tape test/*.js | tap-spec",
