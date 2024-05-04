@@ -1,8 +1,19 @@
 # prompts-plus
 
+[![npm version](https://img.shields.io/npm/v/prompts-plus)](https://www.npmjs.com/package/prompts-plus)
+
 Fork from [prompts](https://github.com/terkelg/prompts)
 
+## New Features
+
+- [x] add `heading` configuration option to `choices` in `select` prompts, which will be displayed as a heading or a separator in the choices list. It will not be selectable and hoverable.
+
+## Original Repository README Below
+
+I have not changed or removed anything from the original README.
+
 ---
+
 
 <p align="center">
   <img src="https://github.com/terkelg/prompts/raw/master/prompts.png" alt="Prompts" width="500" />
