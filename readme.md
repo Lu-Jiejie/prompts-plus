@@ -7,6 +7,16 @@ Fork from [prompts](https://github.com/terkelg/prompts)
 ## New Features
 
 - [x] add `heading` configuration option to `choices` in `select` prompts, which will be displayed as a heading or a separator in the choices list. It will not be selectable and hoverable.
+- [x] you can now give a type parameter to the `prompts` function to specify the type of the answer when only a question is provided. Like:
+```ts
+const { name } = await prompts<string>({
+  type: 'text',
+  name: 'name',
+  message: 'What is your name?'
+})
+
+typeof name // string
+```
 
 ## Original Repository README Below
 
